@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  header {
+    background-color:aquamarine;
+    color:darkcyan;
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    color:darkblue;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #link li{
+    margin:10px;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: darkcyan;
+    font-size: 2rem;
+    gap: 10px;
+  }
+
+  nav ul li a:hover{
+    color: red;
+  }
+  /* Sections */
+  section {
+    padding: 40px;
+    background-color:aqua;
+  }
+  
+ #heading{
+    margin-top: 0;
+    font-size: 2rem;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: strong;
+    color: brown;
+  }
+
+  #para1{
+    font-size: 1.9rem;
+    
+  }
+
+  #heading2{
+    font-size: 2rem;
+    color: brown;
+  }
+
+  #para2{
+    font-size: 1.9rem;
+  }
+  
+  /* Projects */
+  .project  {
+    margin-bottom: 20px;
+  }
+  
+  #heading3{
+    font-size: 2rem;
+    color: brown;
+  }
+
+  #heading4{
+    font-size: 1.5rem;
+    text-decoration:solid;
+  }
+
+  #para3{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #heading5{
+    font-size: 1.5rem;
+    text-decoration:solid;
+  }
+
+  #para4{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #heading6{
+    font-size: 2rem;
+    color: brown;
+  }
+
+  #para5{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #para6{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* Footer */
+  footer {
+    background-color: darkcyan;
+    color:black;
+    font-weight: solid;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+  }
